@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rascalou Montéty</title>
+    <link rel="shortcut icon" href="index/images/icone_rm.png">
+    <meta name="description" content="Rascalou-Montéty - Site Histoire et Famille - France.">
+    <meta name="keywords" content="rascalou, montéty, montety, 1914, 1918">
+    <meta name="author" content="Brigitte Mercandalli, Jonathan Mercandalli">
+    <meta name="geo.placename" content="Paris, France">
+    <meta name="theme-color" content="#AD1457">
+    <link rel="stylesheet" href="index/css/materialize.min.css">
+    <link rel="stylesheet" href="index/css/style.css">
+    <link rel="stylesheet" href="index/css/persist-title.css">
+  </head>
+
+  <body>
+
+    <div class="intro main-color-background lighten-2 z-depth-1">
+      <h1 class="grey-text text-lighten-5">Famille Rascalou-Montéty</h1>
+      <h2>
+        <div class="follow_me">
+          <a href="index.html">Accueil</a>
+          <a href="index_1914.html">1914</a>               
+          <a href="index_1915.html">1915</a>               
+          <a href="index_1916.html">1916</a>               
+          <a href="index_1917.html">1917</a>               
+          <a href="index_1918.html">1918</a>
+          <a href="index_1919.html">1919</a>               
+          <a href="index_notes.html">Notes</a>
+          <a class="selected" href="index_dates.html">Dates</a>
+
+        </div>
+      </h2>
+    </div>
+
+    <div class="container portfolio fade-in" style="display: block; opacity: 1;">
+
+      <div class="row persist-area">
+        <h5 class="persist-header">1914</h5>
+        <hr>
+
+        <div class="col s12 m6">
+          <div class="card small">
+            <div class="card-image">
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row persist-area">
+        <h5 class="persist-header">notes, 1915</h5>
+        <hr>
+        <div id="top1915_01_" class="col s12 m12">
+          <div class="card small">
+            <a href="#top1915_01_">
+              <div class="card-image">
+                <img src="index/images/EnConstruction.jpg">
+                <span class="card-title"><h4>en construction</h4></span>
+              </div>
+              <div class="card-content">
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2015 Copyright, réalisé par Brigitte Mercandalli
+        </div>
+      </div>
+    </footer>
+
+    <script src='index/js/jquery.min.js'></script>
+    <script src='index/js/materialize.min.js'></script>
+    <script src="index/js/index.js"></script>
+    <script src="index/js/persist-title.js"></script>
+
+  </body>
+</html>

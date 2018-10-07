@@ -1,0 +1,373 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font/fontawesome/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../font/fontawesome/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../font/fontawesome/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../font/fontawesome/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../font/fontawesome/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../font/fontawesome/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+body, html
+{
+	background-color: #f8f8f8 !important;
+}
+
+.main-color-background,
+.main-color-background:hover
+{
+	background-color: #AD1457;
+}
+.main-color
+{
+	color: #AD1457;
+}
+
+.intro
+{
+	text-align: center;
+	padding-top: 16px;
+	padding-bottom: 44px;
+	margin-bottom: 46px;
+}
+
+.intro h1
+{
+	font-family:"Roboto";
+	font-weight: 300;
+	font-size: 26px;
+    margin: 0;
+}
+
+.intro h2
+{
+	display: inline-block;
+    margin: 0;
+    line-height: 1;
+    height: 24px;
+}
+.follow_me {
+    margin-top: -6px;
+    margin-bottom: 6px;
+}
+.follow_me .selected {
+	opacity: 0.9;
+    color: white;
+    background: transparent;
+}
+.follow_me a {
+    font-size: 24px;
+    height: 24px;
+    width: 32px;
+    margin: 0 10px 0 0;
+    text-align: center;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    background: transparent;
+    opacity: 0.5;
+    color: #444;
+}
+.follow_me a:hover {
+    opacity: 0.9;
+    color: white;
+    background: transparent;
+}
+
+.fa-twitter:before { content: "\f099"; }
+.fa-facebook:before { content: "\f09a"; }
+.fa-github:before { content: "\f09b"; }
+.fa-linkedin:before { content: "\f0e1"; }
+.fa-google-plus:before { content: "\f0d5"; }
+
+.intro h5
+{
+	background-color: #f5f5f5;
+	padding: 10px;
+	color: #333333;
+	display: inline-block;
+	font-size: 14px;
+    margin-top: 4px;
+}
+
+.about .col
+{
+	margin-bottom: 24px;
+}
+
+.about h5
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.about h6
+{
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.about hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
+
+.about .card
+{
+	text-align: center;
+}
+
+.about .card img
+{
+	margin-bottom: 15px;
+}
+
+
+.portfolio .card .card-image {
+	height: auto;
+}
+.portfolio .card .card-image:before{
+    z-index: 1;
+	content: '';
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 60px;
+	bottom: 0;
+	background: -webkit-linear-gradient(to top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.15) 30%, transparent 100%);
+	background: -o-linear-gradient(to top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.15) 30%, transparent 100%);
+	background: -moz-linear-gradient(to top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.15) 30%, transparent 100%);
+	background: linear-gradient(to top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.15) 30%, transparent 100%);
+}
+
+.portfolio .card-dates:before{
+    z-index: 1;
+    content: '';
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    background: -webkit-linear-gradient(to top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.15) 30%, transparent 100%);
+    background: -o-linear-gradient(to top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.15) 30%, transparent 100%);
+    background: -moz-linear-gradient(to top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.15) 30%, transparent 100%);
+    background: linear-gradient(to top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.15) 30%, transparent 100%);
+}
+
+.portfolio .card-dates p {
+    margin-bottom: 15px;
+    margin-left: 15px
+}
+.portfolio .card .card-image .card-title {
+	z-index: 2;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 10px 10px 0px;
+}
+
+.portfolio .card .card-content p {
+	font-weight: 300;
+}
+.portfolio .card .card-content ul {
+	margin: 4px 0;
+	font-size: 13px;
+}
+
+.portfolio .card {
+	transition: all 0.3s ease-out;	
+}
+.portfolio .card:hover {
+	transition: all 0.3s ease-out;
+    box-shadow: 0 6px 20px #AFAFAF;
+}
+.portfolio .card a {
+	color: rgba(0, 0, 0, 0.870588);
+}
+
+.portfolio .col
+{
+	margin-bottom: 24px;
+}
+
+.portfolio h5
+{
+	text-align: center;
+	text-transform: inherit;
+	margin-bottom: 15px;
+}
+
+.portfolio h6
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.portfolio hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
+
+.portfolio .portfolio-holder
+{
+	clear: both;
+	text-align: center;
+}
+
+.portfolio img
+{
+	width: calc(33% - 10px);
+	display: inline-block;
+	float: left;
+}
+
+.materialboxed
+{
+	margin: 5px;
+}
+
+.contact .col
+{
+	margin-bottom: 24px;
+}
+
+.contact h5
+{
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+
+.contact h6
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.contact hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
+
+.contact .contact-holder
+{
+	padding-left: 40px;
+	text-align: left;
+}
+
+.contact .contact-holder h6
+{
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.contact .contact-holder p
+{
+	margin-bottom: 30px;
+}
+footer
+{
+	padding-top: 0px;
+	padding-bottom: 24px;
+}
+
+
+.card.small,
+.card.small .card-content {
+    height: auto;
+}
+
+footer .footer-grid {
+    height: 100%;
+    width: 1160px;
+    z-index: 20;
+	background-color: #AD1457;
+    padding-top: 16px;
+    padding-bottom: 44px;
+    margin-bottom: 46px;
+}
+
+footer .footer-L {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 50.1%;
+    z-index: -1;
+}
+
+footer .footer-grid .footer-grid-L .footer-text .arrow-L {
+    float: left;
+    margin-right: 10px;
+    padding-top: 23px;
+    width: 24px;
+}
+
+footer .footer-grid .footer-grid-R .footer-text .arrow-R {
+    float: right;
+    margin-left: 10px;
+    padding-top: 23px;
+    width: 24px;
+}
+
+footer .footer-grid .footer-grid-R .footer-text {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+    line-height: 24px;
+    padding-top: 24px;
+    width: 100%;
+}
+
+footer .footer-grid .footer-grid-L .footer-text span {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 1px;
+}
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v8/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.color-magenta>.footer-text span.direction {
+    color: white;
+}
+
+.color-magenta.footer-L {
+    background-color: #AD1457;
+}
