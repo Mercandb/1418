@@ -66,12 +66,33 @@
          <h5>Me contacter</h5>
          <hr>
          <div class="row">
-            <div class="col s12 m12">
-              <button class="btn waves-effect waves-light main-color-background" type="submit" name="action" onclick="location.href='mailto:rascalou.1418@gmail.com';" style="margin:  auto; display:  block;">
-                Envoyer un email
-                <i class="mdi-content-send right"></i>
-              </button>
-            </div>
+
+            <div class="col s12 m12 l12">
+               <div class="row">
+                  <form action="contact-us" method="post" class="col s12">
+                     <div class="row">
+                        <div class="input-field col s6">
+                           <input name="first_name" id="first_name" type="text" class="validate">
+                           <label for="first_name">Prénom</label>
+                        </div>
+                        <div class="input-field col s6">
+                           <input name="last_name" id="last_name" type="text" class="validate">
+                           <label for="last_name">Nom</label>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="input-field col s12">
+                           <input name="email" id="email" type="email" class="validate">
+                           <label for="email">Adresse Mail</label>
+                        </div>
+                     </div>
+                     <textarea name="text" class="materialize-textarea" placeholder="Votre message" required=""></textarea>
+                     <button class="btn waves-effect waves-light main-color-background" type="submit" name="action">Envoyer
+                        <i class="mdi-content-send right"></i>
+                     </button>
+                  </form>
+               </div>
+
          </div>
       </div>
 
